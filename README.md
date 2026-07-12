@@ -33,7 +33,7 @@ Open:
 frontend/index.html
 
 ## GitHub Repository
-https://github.com/Renu-ka1706/Smart-Resource-Allocation
+(https://github.com/pranavisai820/Smart-Resource-Allocation)
 
 ## Future Enhancements
 - AI-based prediction of community needs
