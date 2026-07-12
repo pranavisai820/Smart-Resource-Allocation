@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Resource Allocation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Smart Resource Allocation</h1>
+
+<div class="container">
+    <h3>Add Community Need</h3>
+    <input id="area" placeholder="Area">
+    <input id="issue" placeholder="Issue (Food/Health)">
+    <input id="severity" placeholder="Severity (1-5)">
+    <button onclick="addNeed()">Add Need</button>
+</div>
+
+<div class="container">
+    <h3>Add Volunteer</h3>
+    <input id="name" placeholder="Name">
+    <input id="skill" placeholder="Skill">
+    <input id="location" placeholder="Location">
+    <button onclick="addVolunteer()">Add Volunteer</button>
+</div>
+
+<div class="container">
+    <h3>Allocate Volunteers</h3>
+    <button onclick="allocate()">Allocate</button>
+    <ul id="result"></ul>
+</div>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <p id="popupText"></p>
+        <button onclick="closePopup()">OK</button>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
